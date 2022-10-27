@@ -40,3 +40,7 @@ let bigger = document.querySelector('#biggify');
 bigger.addEventListener('mouseover',function(){
     bigger.style.width = '200px';
 })
+
+bigger.addEventListener('mouseleave',function(){
+    bigger.style.width = '162px'
+})
