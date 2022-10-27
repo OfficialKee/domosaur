@@ -32,8 +32,12 @@ let roww=document.querySelector('#row');
 
 let switchBackground = document.querySelector('#toggle');
 switchBackground.addEventListener('click',function(){
-    roww.style.background='black';
-});
+    if(roww.style.background==='black'){
+        row.style.background = '';
+     } else{
+            row.style.background = 'black'
+        }
+    });
 
 let bigger = document.querySelector('#biggify');
 
